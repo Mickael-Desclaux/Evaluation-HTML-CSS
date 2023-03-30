@@ -13,11 +13,12 @@ body {
 
 aside {
     background-color: #917B00;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
-.contact, h2 {
+h2 {
     background-color: black;
+    border-radius: 0.5em;
 }
 
 h2, h3, .contact, h4 {
@@ -29,6 +30,10 @@ h2, h3, .contact, h4 {
     color: antiquewhite;
 }
 
-.map-responsive {
+.map-responsive, .mail, .phone {
 overflow: hidden;
+}
+
+footer,  .contact {
+    background-color: rgb(24, 24, 24)
 }
