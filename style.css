@@ -8,6 +8,7 @@ main {
 
 body {
     color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside {
@@ -28,6 +29,6 @@ h2, h3, .contact, h4 {
     color: antiquewhite;
 }
 
-footer {
-    background-color: black;
+.map-responsive {
+overflow: hidden;
 }
