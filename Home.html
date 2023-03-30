@@ -16,7 +16,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a href="Home.html" class="navbar-brand club-logo"><img
-                    src="logo-tc.jpg" alt="logo" style="max-width: 100%;"></a>
+                    src="logo-tc.jpg" alt="logo"
+                    style="max-width: 100%; border-radius: 10%;"></a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item fs-5 ms-5">
@@ -35,8 +36,11 @@
     <main>
         <div class="container-fluid fs-5">
             <div class="row text-center">
-                <div class="col-lg-10">
-                    <h1>Bienvenue sur le site du tennis club Loubésien !</h1>
+                <div class="col-lg-10 mt-5">
+                    <header>
+                        <h1>Bienvenue sur le site du tennis club Loubésien !
+                        </h1>
+                    </header>
                 </div>
             </div>
             <div class="row">
@@ -59,7 +63,7 @@
                                 href="evenements.html">événements</a>.
                         </p>
                         <img src="tennis-match.jpg" class="img-fluid"
-                            alt="tennis" style="width: 65%;">
+                            alt="tennis" style="width: 65%; border-radius: 2%;">
                     </section>
                     <section>
                         <h2 class="mt-4">Un club orienté loisir et compétition
@@ -90,35 +94,50 @@
                             terrain de Padel éclairé, ainsi qu'un terrain de
                             Beach Tennis. </p>
                         <img src="tennis-training.jpg" alt="training"
-                            style="width: 30%;">
+                            style="width: 40%; border-radius: 2%;">
                     </section>
                 </div>
-                <div class="col-lg-2 text-center mt-5">
-                    <aside class="m-2">
-                        <h3>Coordonnés</h3>
-                        <h4>Adresse</h4>
-                        <p>Tennis Club Loubésien<br>Rue Max Linder
-                            44<br>Saint-Loubès
-                            33450<br>France</p>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.4764016797917!2d-0.43113198426407556!3d44.913646578030296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd553192c3177095%3A0x874db602e2feaaeb!2sSAINT%20LOUBES%20TC!5e0!3m2!1sfr!2sfr!4v1680174084924!5m2!1sfr!2sfr"
-                            width="250" height="225" style="border:0;"
-                            allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <h4>Contact</h4>
-                        <p>+33 1 23 45 67 89<br>tennis.club.tennis@mail.fr</p>
-                        <h4>Suivez-nous sur les réseaux sociaux!</h4>
+                <div class="col-lg-2 mt-5 fs-5">
+                    <aside>
+                        <h3 class="pt-3 text-center">Coordonnés</h3>
+                        <section class="p-3">
+                            <h4>Adresse :</h4>
+                            <p>Tennis Club Loubésien<br>Rue Max Linder
+                                44<br>Saint-Loubès
+                                33450<br>France</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.4764016797917!2d-0.43113198426407556!3d44.913646578030296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd553192c3177095%3A0x874db602e2feaaeb!2sSAINT%20LOUBES%20TC!5e0!3m2!1sfr!2sfr!4v1680174084924!5m2!1sfr!2sfr"
+                                width="250" height="225" style="border:0;"
+                                allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <h4>Contact :</h4>
+                            <p><a href="tel:0123456789" class="phone">+33 1 23
+                                    45 67
+                                    89</a><br>
+                                <a href="mailto:tennis.club@gmail.fr"
+                                    class="mail">tennis.club@gmail.fr</a>
+                            </p>
+                            <h4>Suivez-nous sur les réseaux sociaux!</h4>
+                            <a
+                                href="https://www.facebook.com/tennisclubsaintloubes/"><img
+                                    src="facebook.png" alt="facebook-icon"
+                                    style="max-width: 10%;"></a>
+                            <img src="instagram.png" alt="insta-icon"
+                                style="max-width: 10%;">
+                            <img src="twitter.png" alt="twitter-icon"
+                                style="max-width: 10%;">
+                        </section>
                     </aside>
                 </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-10 m-5">
-            <h3 class="text-center">Nous contacter</h3>
-        </div>
-            <div class="col-5 ms-5">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <h3 class="text-center contact">Nous contacter :</h3>
+            </div>
+            <div class="col-6 m-3">
                 <form action="" method="post">
-                    <div class="mb-3">
+                    <div>
                         <label for="contact_name"
                             class="form-label">Nom:</label>
                         <input type="text" class="form-control"
@@ -126,9 +145,9 @@
                     </div>
                 </form>
             </div>
-            <div class="col-5">
+            <div class="col-6">
                 <form action="" method="post">
-                    <div class="mb-3">
+                    <div class="m-3">
                         <label for="contact_mail"
                             class="form-label">E-Mail:</label>
                         <input type="email" class="form-control"
@@ -138,10 +157,10 @@
                 </form>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col-10">
+        <div class="row ">
+            <div class="col-12">
                 <form action="" method="post">
-                    <div class="mb-3 ms-5">
+                    <div class="m-3">
                         <label for="contact_message" class="form-label">Votre
                             message:</label>
                         <textarea class="form-control" id="contact_message"

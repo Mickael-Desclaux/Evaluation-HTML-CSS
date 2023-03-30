@@ -12,4 +12,22 @@ body {
 
 aside {
     background-color: #917B00;
+    border-radius: 1em;
+}
+
+.contact, h2 {
+    background-color: black;
+}
+
+h2, h3, .contact, h4 {
+    text-decoration: underline;
+}
+
+.mail, .phone {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+footer {
+    background-color: black;
 }
