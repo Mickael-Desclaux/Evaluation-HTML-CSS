@@ -13,52 +13,51 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a href="Home.html" class="navbar-brand club-logo"><img
+                        src="ressources/logo-tc.jpg" alt="logo"
+                        style="max-width: 100%; border-radius: 10%;"></a>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a href="Home.html" class="navbar-brand club-logo"><img
-                    src="ressources/logo-tc.jpg" alt="logo"
-                    style="max-width: 100%; border-radius: 10%;"></a>
-
-            <button 
-                type="button" 
-                class="navbar-toggler" 
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" 
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button type="button" class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item fs-5 ms-5">
-                        <a href="Home.html" class="nav-link active">Accueil</a>
-                    </li>
-                    <li class="nav-item fs-5 ms-5">
-                        <a href="evenements.html" class="nav-link">Les événements</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item fs-5 ms-5">
+                            <a href="Home.html"
+                                class="nav-link active">Accueil</a>
+                        </li>
+                        <li class="nav-item fs-5 ms-5">
+                            <a href="evenements.html" class="nav-link">Les
+                                événements</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
+    <div class="bandeau"></div>
     <main>
         <div class="container-fluid fs-5">
             <div class="row text-center">
-                <div class="col-lg-10 mt-5">
-                    <header>
-                        <h1>Bienvenue sur le site du tennis club Loubésien !
-                        </h1>
-                    </header>
+                <h1 class="pt-5">Bienvenue sur le site du tennis club Loubésien
+                    !
+                </h1>
+                <div class="col-lg-10 mt-3">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-10 text-center">
                     <section>
-                        <h2 class="mt-5">Le club:</h2>
+                        <h2 class="mt-5 bg-primary">Le club:</h2>
                         <p class="m-3">Fondé en 1984, le tennis club Loubésien
                             se
                             situe dans un environnement unique.<br>
@@ -78,7 +77,8 @@
                             alt="tennis" style="width: 65%; border-radius: 2%;">
                     </section>
                     <section>
-                        <h2 class="mt-4">Un club orienté loisir et compétition
+                        <h2 class="mt-4 bg-primary">Un club orienté loisir et
+                            compétition
                         </h2>
                         <p class="m-3">Notre club est un club de 250
                             licenciés
@@ -106,7 +106,7 @@
                             terrain de Padel éclairé, ainsi qu'un terrain de
                             Beach Tennis. </p>
                         <img src="ressources/tennis-training.jpg" alt="training"
-                            style="width: 40%; border-radius: 2%; padding-bottom: 5em;">
+                            style="max-width: 45%; border-radius: 2%; padding-bottom: 5em;">
                     </section>
                 </div>
                 <div class="col-lg-2 mt-5">
@@ -124,10 +124,9 @@
                                     allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            <h4>Contact :</h4>
+                            <h4 class="pt-2">Contact :</h4>
                             <p><a href="tel:0123456789" class="phone">+33 1 23
-                                    45 67
-                                    89</a><br>
+                                    45 67 89</a><br>
                                 <a href="mailto:tennis.club@gmail.fr"
                                     class="mail">tennis.club@gmail.fr</a>
                             </p>
