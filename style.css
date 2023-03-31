@@ -16,6 +16,14 @@ aside {
     border-radius: 0.5em;
 }
 
+aside h4 {
+    font-size: 1em;
+}
+
+aside p {
+    font-size: 1.7vh;
+}
+
 h2 {
     background-color: black;
     border-radius: 0.5em;
@@ -36,4 +44,10 @@ overflow: hidden;
 
 footer,  .contact {
     background-color: rgb(24, 24, 24)
+}
+
+@media screen and (max-width: 992px) {
+    aside {
+        text-align: center;
+    }
 }
