@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-                <a href="Home.html" class="navbar-brand club-logo"><img
+                <a href="Home.html" class="navbar-brand"><img
                         src="ressources/logo-tc.jpg" alt="logo"
                         style="max-width: 100%; border-radius: 10%;"></a>
 
@@ -53,12 +52,12 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid fs-5 pt-4">
+        <div class="container-fluid fs-5">
             <div class="row">
-                <h1 class="text-center pb-5">De l'animation toute l'année!</h1>
+                <h1 class="text-center pt-5">De l'animation toute l'année!</h1>
             </div>
             <div class="row">
-                <div class="col-lg-6 mb-5 mt-4">
+                <div class="col-lg-6 mb-5 mt-5">
                     <h2 class="text-center bg-primary">Portes ouvertes le 25
                         Août 2023 !
                     </h2>
@@ -78,7 +77,7 @@
                         au long de la journée. Seul, en famille ou entre
                         amis, vous passerez un moment convivial. </p>
                 </div>
-                <div class="col-lg-6 mb-5 mt-4 text-center">
+                <div class="col-lg-6 mt-5 text-center">
                     <img src="Ressources/portes-ouvertes.jpg"
                         alt="journée porte ouverte"
                         title="Journée porte ouverte 2022"
@@ -87,8 +86,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 pt-5 pb-5 text-center">
-                    <img src="Ressources/tennis-tournois.jpg"
-                        alt="Tournois"
+                    <img src="Ressources/tennis-tournois.jpg" alt="Tournois"
                         title="Tournois Homme 2022"
                         style="max-width: 70%; border-radius: 2%;">
                 </div>
@@ -112,8 +110,9 @@
                 <div class="col-lg-6 mb-5">
                     <h2 class="text-center bg-primary">Célébrez la journée
                         mondiale du
-                        tennis!</h2>
-                    <p class="pt-3">Le 4 avril, c'est la journée mondiale du
+                        tennis !</h2>
+                    <p class="pt-3 text-center">Le 4 avril, c'est la journée
+                        mondiale du
                         tennis! L'occasion pour le club d'organiser
                         de nombreux jeux et compétitions toute la journée, pour
                         tout les licenciés du club.<br>
@@ -137,47 +136,51 @@
         </div>
     </main>
     <footer>
-        <div class="row">
-            <div class="col-12 mt-2">
-                <h3 class="text-center pt-2 pb-2 contact">Nous contacter :</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mt-2">
+                    <h3 class="text-center pt-2 pb-2 contact">Nous contacter :
+                    </h3>
+                </div>
+                <div class="col-6 ms-3">
+                    <form action="" method="post">
+                        <div>
+                            <label for="contact_name"
+                                class="form-label">Nom:</label>
+                            <input type="text" class="form-control"
+                                id="contact_name" placeholder="Votre nom">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6 ms-3">
+                    <form action="" method="post">
+                        <div>
+                            <label for="contact_mail"
+                                class="form-label">E-Mail:</label>
+                            <input type="email" class="form-control"
+                                id="contact_mail"
+                                placeholder="Votre adresse E-Mail">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="col-6 ms-3">
-                <form action="" method="post">
-                    <div>
-                        <label for="contact_name"
-                            class="form-label">Nom:</label>
-                        <input type="text" class="form-control"
-                            id="contact_name" placeholder="Votre nom">
-                    </div>
-                </form>
-            </div>
-            <div class="col-6 ms-3">
-                <form action="" method="post">
-                    <div>
-                        <label for="contact_mail"
-                            class="form-label">E-Mail:</label>
-                        <input type="email" class="form-control"
-                            id="contact_mail"
-                            placeholder="Votre adresse E-Mail">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="row ">
-            <div class="col-12">
-                <form action="" method="post">
-                    <div class="m-3">
-                        <label for="contact_message" class="form-label">Votre
-                            message:</label>
-                        <textarea class="form-control" id="contact_message"
-                            rows="6"
-                            placeholder="Veuillez entrer votre message ici"></textarea>
-                    </div>
-                    <div class="text-center">
-                        <input class="btn btn-lg btn-primary ms-3 mb-2"
-                            type="submit" value="Envoyer">
-                    </div>
-                </form>
+            <div class="row ">
+                <div class="col-12">
+                    <form action="" method="post">
+                        <div class="m-3">
+                            <label for="contact_message"
+                                class="form-label">Votre
+                                message:</label>
+                            <textarea class="form-control" id="contact_message"
+                                rows="6"
+                                placeholder="Veuillez entrer votre message ici"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <input class="btn btn-lg btn-primary ms-3 mb-2"
+                                type="submit" value="Envoyer">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
