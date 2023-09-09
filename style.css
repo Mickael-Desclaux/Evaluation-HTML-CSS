@@ -1,65 +1,47 @@
 .navbar-brand {
-max-width: 8em;
+    max-width: 8em;
 }
 
-main {
-    background-color: rgb(13, 9, 68);
+.navbar {
+    background-color: #C85A19;
 }
 
 body {
-    color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
+    color: #090C02;
+    background-color: #E6EED6;
 }
 
-aside {
-    background-color: #917B00;
-    border-radius: 0.5em;
+a {
+    color: #C85A19;
 }
 
-aside h4 {
-    font-size: 1em;
-}
-
-aside p {
-    font-size: 1.7vh;
-}
-
-h2, h3, .contact, h4 {
-    text-decoration: underline;
-}
-
-h1 {
-    font-size:2.5em ;
-    font-weight: bold;
+.btn {
+    background-color: #C85A19;
+    border-color: #C85A19;
 }
 
 h2 {
-    border-radius: 0.5em;
     padding: 0.1em;
-}
-
-.mail, .phone {
-    text-decoration: none;
-    color: antiquewhite;
+    color: #E6EED6;
+    background-color: #C85A19;
 }
 
 .map-responsive, .mail, .phone {
-overflow: hidden;
+    overflow: hidden;
 }
 
-footer,  .contact {
-    background-color: rgb(24, 24, 24)
+footer, .contact {
+    background-color: #1E1E24;
+    color: #C85A19;
 }
 
-@media screen and (max-width: 992px) {
-    aside {
-        text-align: center;
-    }
+nav.breadcrumb {
+    background-color: #E6EED6;
 }
 
-.breadcrumb {
-    margin: 0px;
-}
-.bandeau {
-    height: 24px;
+.offcanvas, .offcanvas-body {
+    background-color: #C85A19;
+    text-decoration: none;
+    color: #E6EED6;
 }

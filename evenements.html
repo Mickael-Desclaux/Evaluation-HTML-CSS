@@ -11,180 +11,159 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a href="Home.html" class="navbar-brand"><img
-                        src="ressources/logo-tc.jpg" alt="logo"
-                        style="max-width: 100%; border-radius: 10%;"></a>
-
-                <button type="button" class="navbar-toggler"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img alt="Logo" src="Ressources/logo-tc.jpg"
+                                                  style="max-width: 100%; border-radius: 10%;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                         <li class="nav-item fs-5 ms-5">
-                            <a href="Home.html" class="nav-link">Accueil</a>
+                            <a class="nav-link active" aria-current="page" href="Home.html">Accueil</a>
                         </li>
                         <li class="nav-item fs-5 ms-5">
-                            <a href="#" class="nav-link active">Les
-                                événements</a>
+                            <a class="nav-link" href="evenements.html">Événements</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-        <div class="container-fluid">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb ms-2">
-                    <li class="breadcrumb-item"><a href="Home.html">Accueil</a>
-                    </li>
-                    <li class="breadcrumb-item active" aria-current="page">Les
-                        événements</li>
-                </ol>
-            </nav>
         </div>
-    </header>
-    <main>
-        <div class="container-fluid fs-5">
-            <div class="row">
-                <h1 class="text-center pt-5">De l'animation toute l'année!</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5 mt-5">
-                    <h2 class="text-center bg-primary">Portes ouvertes le 25
-                        Août 2023 !
-                    </h2>
-                    <p class="pt-3 ms-4 text-center me-4">La FFT organise des «
-                        Journées Portes
-                        Ouvertes » dans
-                        ses clubs, en partenariat avec Intersport et Wilson.
+    </nav>
+    <nav aria-label="breadcrumb" class="breadcrumb">
+        <ol class="breadcrumb ms-2">
+            <li class="breadcrumb-item"><a href="Home.html">Accueil</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Les
+                événements
+            </li>
+        </ol>
+    </nav>
+</header>
+<main>
+    <div class="container-fluid fs-5">
+        <div class="row">
+            <h1 class="text-center mb-5">De l'animation toute l'année !</h1>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="text-center">Portes ouvertes le 25
+                    août 2023 !
+                </h2>
+                <p class="pt-3 ms-4 text-center me-4">La FFT organise des «
+                    Journées Portes
+                    Ouvertes » dans
+                    ses clubs, en partenariat avec Intersport et Wilson.
 
-                        À l’occasion de la rentrée, la FFT vous invite à
-                        découvrir le tennis, le tennis-fauteuil, le padel et
-                        le beach tennis dans l’un des clubs FFT proche de
-                        chez vous. Vous pourrez découvrir, gratuitement, ces
-                        disciplines mais aussi les clubs et leurs activités.
+                    À l’occasion de la rentrée, la FFT vous invite à
+                    découvrir le tennis, le tennis-fauteuil, le padel et
+                    le beach tennis dans l’un des clubs FFT proche de
+                    chez vous. Vous pourrez découvrir, gratuitement, ces
+                    disciplines mais aussi les clubs et leurs activités.
 
-                        Au programme, des animations, jeux et initiations,
-                        pour petits et grands, novices ou pratiquants, tout
-                        au long de la journée. Seul, en famille ou entre
-                        amis, vous passerez un moment convivial. </p>
-                </div>
-                <div class="col-lg-6 mt-5 text-center">
-                    <img src="Ressources/portes-ouvertes.jpg"
-                        alt="journée porte ouverte"
-                        title="Journée porte ouverte 2022"
-                        style="max-width: 80%; border-radius: 2%;">
-                </div>
+                    Au programme, des animations, jeux et initiations,
+                    pour petits et grands, novices ou pratiquants, tout
+                    au long de la journée. Seul, en famille ou entre
+                    amis, vous passerez un moment convivial. </p>
             </div>
-            <div class="row">
-                <div class="col-lg-6 pt-5 pb-5 text-center">
-                    <img src="Ressources/tennis-tournois.jpg" alt="Tournois"
-                        title="Tournois Homme 2022"
-                        style="max-width: 70%; border-radius: 2%;">
-                </div>
-                <div class="col-lg-6 pt-5">
-                    <h2 class="text-center bg-primary">Tournois club 2023: Les
-                        dates</h2>
-                    <p class="pt-3 text-left">Comme chaque années, le club
-                        orgnanise des tournois pour tout les âges:</p>
-                    <ul>
-                        <li>Tournois Hommes du 10 au 25 avril 2023</li>
-                        <li>Tournois Dames du 15 au 30 mars 2023</li>
-                        <li>Tournois Jeunes U12 du 10 au 25 mai 2023</li>
-                        <li>Tournois Jeunes U14 du 15 au 30 juin 2023</li>
-                        <li>Tournois Jeunes U16 du 10 au 25 juillet 2023</li>
-                        <li>Tournois Jeunes U18 du 15 au 30 août 2023</li>
-                        <li>Tournois Senior du 10 au 25 septembre 2023</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <h2 class="text-center bg-primary">Célébrez la journée
-                        mondiale du
-                        tennis !</h2>
-                    <p class="pt-3 text-center">Le 4 avril, c'est la journée
-                        mondiale du
-                        tennis! L'occasion pour le club d'organiser
-                        de nombreux jeux et compétitions toute la journée, pour
-                        tout les licenciés du club.<br>
-                        Au programme, des concours de tout types (meilleur
-                        service, meilleure volée etc...) ainsi qu'un mini
-                        tournois en double.
-                        Tout les adhérents peuvent participer gratuitement et
-                        gagner de nombreux lots!<br>
-                        N'hésitez pas à nous rejoindre pour cette journée
-                        festive de 10h à 20h, un repas sera organisé à 13h pour
-                        tout les adhérents.
-                    </p>
-                </div>
-                <div class="col-lg-6 mb-5 text-center">
-                    <img src="Ressources/journée-tennis.jpg"
-                        alt="journée mondiale du tennis"
-                        title="Journée du tennis 2022"
-                        style="max-width: 80%; border-radius: 2%;">
-                </div>
+            <div class="col-lg-6 text-center">
+                <img src="Ressources/portes-ouvertes.jpg"
+                     alt="journée porte ouverte"
+                     title="Journée porte ouverte 2022"
+                     style="max-width: 80%; height: auto; border-radius: 2%;">
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 mt-2">
-                    <h3 class="text-center pt-2 pb-2 contact">Nous contacter :
-                    </h3>
-                </div>
-                <div class="col-6 ms-3">
-                    <form action="" method="post">
-                        <div>
-                            <label for="contact_name"
-                                class="form-label">Nom:</label>
-                            <input type="text" class="form-control"
-                                id="contact_name" placeholder="Votre nom">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-6 ms-3">
-                    <form action="" method="post">
-                        <div>
-                            <label for="contact_mail"
-                                class="form-label">E-Mail:</label>
-                            <input type="email" class="form-control"
-                                id="contact_mail"
-                                placeholder="Votre adresse E-Mail">
-                        </div>
-                    </form>
-                </div>
+        <div class="row mb-5 d-flex">
+            <div class="col-lg-6 order-lg-2">
+                <h2 class="text-center">Tournois club 2023 : Les dates</h2>
+                <p class="pt-3">Comme chaque année, le club organise des tournois pour tous les âges :</p>
+                <ul>
+                    <li>Tournois Hommes du 10 au 25 avril 2023</li>
+                    <li>Tournois Dames du 15 au 30 mars 2023</li>
+                    <li>Tournois Jeunes U12 du 10 au 25 mai 2023</li>
+                    <li>Tournois Jeunes U14 du 15 au 30 juin 2023</li>
+                    <li>Tournois Jeunes U16 du 10 au 25 juillet 2023</li>
+                    <li>Tournois Jeunes U18 du 15 au 30 août 2023</li>
+                    <li>Tournois Senior du 10 au 25 septembre 2023</li>
+                </ul>
             </div>
-            <div class="row ">
-                <div class="col-12">
-                    <form action="" method="post">
-                        <div class="m-3">
-                            <label for="contact_message"
-                                class="form-label">Votre
-                                message:</label>
-                            <textarea class="form-control" id="contact_message"
-                                rows="6"
-                                placeholder="Veuillez entrer votre message ici"></textarea>
-                        </div>
-                        <div class="text-center">
-                            <input class="btn btn-lg btn-primary ms-3 mb-2"
-                                type="submit" value="Envoyer">
-                        </div>
-                    </form>
-                </div>
+            <div class="col-lg-6 order-lg-1 text-center">
+                <img src="Ressources/tennis-tournois.jpg" alt="Tournois" title="Tournois Homme 2022"
+                     style="max-width: 80%; height: auto; border-radius: 2%;">
             </div>
         </div>
-    </footer>
-    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="text-center">Célébrez la journée
+                    mondiale du
+                    tennis !</h2>
+                <p class="pt-3 text-center">Le 4 avril, c'est la journée
+                    mondiale du
+                    tennis ! L'occasion pour le club d'organiser
+                    de nombreux jeux et compétitions toute la journée, pour
+                    tous les licenciés du club.<br>
+                    Au programme, des concours de tout types (meilleur
+                    service, meilleure volée, etc.) ainsi qu'un mini-tournois en double.
+                    Tous les adhérents peuvent participer gratuitement et
+                    gagner de nombreux lots !<br>
+                    N'hésitez pas à nous rejoindre pour cette journée
+                    festive de 10h à 20h, un repas sera organisé à 13h pour
+                    tous les adhérents.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="Ressources/journée-tennis.jpg"
+                     alt="journée mondiale du tennis"
+                     title="Journée du tennis 2022"
+                     style="max-width: 80%; height: auto; border-radius: 2%;">
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="text-center">
+    <div class="row ">
+        <div class="col-12 mb-4">
+            <h3 class="pt-3">Coordonnés</h3>
+            <h4>Adresse :</h4>
+            <p>Tennis Club Loubésien<br>Rue Max Linder
+                44<br>Saint-Loubès
+                33450<br>France</p>
+            <div class="map-responsive">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.4764016797917!2d-0.43113198426407556!3d44.913646578030296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd553192c3177095%3A0x874db602e2feaaeb!2sSAINT%20LOUBES%20TC!5e0!3m2!1sfr!2sfr!4v1680174084924!5m2!1sfr!2sfr"
+                        width="250" height="225" style="border:0;"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <h4 class="pt-2">Contact :</h4>
+            <p><a href="tel:0123456789" class="phone">+33 1 23
+                45 67 89</a><br>
+                <a href="mailto:tennis.club@gmail.fr"
+                   class="mail">tennis.club@gmail.fr</a>
+            </p>
+            <h4>Suivez-nous sur les réseaux sociaux !</h4>
+            <a
+                    href="https://www.facebook.com/tennisclubsaintloubes/"><img
+                    src="ressources/facebook.png"
+                    alt="facebook-icon"
+                    style="max-width: 1.5em;"></a>
+            <img src="ressources/instagram.png" alt="insta-icon"
+                 style="max-width: 1.5em;">
+            <img src="ressources/twitter.png" alt="twitter-icon"
+                 style="max-width: 1.5em;">
+        </div>
+    </div>
+</footer>
+<script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
