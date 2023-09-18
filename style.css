@@ -1,5 +1,5 @@
 .navbar-brand {
-    max-width: 7vmax;
+    max-width: 7em;
 }
 
 .navbar {
@@ -40,4 +40,21 @@ footer, .contact {
     background-color: #C85A19;
     text-decoration: none;
     color: #E6EED6;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        max-width: 6em;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-brand {
+        max-width: 4em;
+    }
 }
